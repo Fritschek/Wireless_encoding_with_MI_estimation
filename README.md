@@ -8,7 +8,3 @@ R. Fritschek, R. F. Schaefer and G. Wunder, "Deep Learning for Channel Coding vi
 This is an exemplary implementation with TF 2, while the original simulations were done in TF 1.
 Moreover, I don't use the same parameter values as in the paper, because I wanted to avoid too much fine-tuning.
 Nevertheless, the results are comparable.
-
-This version also still uses embeddings for encoding from the message space.
-I'll update this in the coming week to include the binary message space approach, which, to some extent, overcomes the
-exploding dimensions for large block lengths/message sets.
